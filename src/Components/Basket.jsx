@@ -11,6 +11,7 @@ const BasketBox = (props) => {
   const { totalPrice } = useSelector((state) => state.basketSlice);
   const basketRef = useRef(null);
 
+
   const handleCheckout = () => {
     navigate("/basket");
     toggleCart();
