@@ -5,9 +5,11 @@ Bu proje, React.js kullanarak geliştirilmiş bir e-ticaret sitesidir. Kullanıc
 <br><br>
 
 ## İçindekiler  
-[Başlarken](#baslarken)  
-[Özellikler](#özellikler)  
+[Özellikler](#özellikler)
+
 [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
+
+[Projeyi Çalıştırma](#dev)
 
 
 <br><br>
@@ -43,8 +45,8 @@ Bu proje, React.js kullanarak geliştirilmiş bir e-ticaret sitesidir. Kullanıc
 ![](/src/e-ticaret.gif)
 <br> <br>
 
-<a name="baslarken"></a>
+<a name="dev"></a>
 
-## Başlarken
+## Projeyi Çalıştırma
 1. Bağımlılıkları yükleyin: `npm install` veya `yarn install`
 2. Uygulamayı başlatın: `npm run dev`
