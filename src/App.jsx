@@ -1,11 +1,8 @@
- import Layout from './Layout/Layout.jsx'
+import Layout from "./Layout/Layout.jsx";
 export default function App() {
- 
- 
   return (
-    <div >
+    <div>
       <Layout></Layout>
     </div>
   );
 }
-

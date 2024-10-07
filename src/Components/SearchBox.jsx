@@ -2,12 +2,11 @@ import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 
 const SearchBox = (props) => {
-  console.log("searchbox render edildi")
   const { searchResult } = props;
   const { search } = props;
   const navigate = useNavigate();
   const { product } = useSelector((store) => store.productReducer);
- 
+
   const filteredProducts = search
     ? product.filter((item) =>
         item.title.toLowerCase().includes(search.toLowerCase())
@@ -20,7 +19,6 @@ const SearchBox = (props) => {
 
   return searchResult ? (
     <section className="py-4 absolute right-0 top-16 w-full max-w-md mx-auto bg-white rounded-lg shadow-lg h-[400px] overflow-y-auto overflow-x-hidden">
-     
       <div className="px-6 py-4">
         <h2 className="title font-manrope font-bold text-3xl leading-8 mb-6 text-center text-black">
           Products

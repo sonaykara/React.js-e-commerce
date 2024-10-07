@@ -2,16 +2,14 @@ import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { getAllCategory } from "../features/productSlice";
 import { Link } from "react-router-dom";
-import React from 'react';
-
+import React from "react";
 
 const LeftBar = React.memo(() => {
-  console.log("leftbar render edildi");
   const dispatch = useDispatch();
-  
+
   useEffect(() => {
     dispatch(getAllCategory());
-  }, [dispatch]); 
+  }, [dispatch]);
   const category = useSelector((store) => store.productReducer.category);
   return (
     <div className="w-full flex flex-col bg-gray-800 text-white p-5 shadow-md rounded-xl justify-center items-center">

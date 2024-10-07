@@ -1,7 +1,6 @@
 import { useSelector } from "react-redux";
 import { useHelper } from "../CustomHooks/helper";
 const ShoppingCart = () => {
-  console.log("shopingcard render edildi")
   const { basket } = useSelector((state) => state.basketSlice);
   const { totalPrice } = useSelector((state) => state.basketSlice);
   const { incrementQuntity, decrementQuantity, deleteItemBasketItem } =
@@ -145,7 +144,6 @@ const ShoppingCart = () => {
             </h6>
           </div>
         </div>
-        
       </div>
     </section>
   );

@@ -4,7 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { addToBasket } from "../features/basketSlice";
 
 const DetailCard = () => {
-  console.log("detail render edildi");
   const { product } = useSelector((store) => store.productReducer);
 
   const dispatch = useDispatch();

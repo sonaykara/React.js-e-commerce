@@ -1,7 +1,7 @@
 import Slider from "../Components/Slider";
 import LeftBar from "../Components/LeftBar";
 import Home from "../Pages/Home";
-import { Route, Routes,} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Category from "../Pages/Category";
 
 import Navbar from "../Components/Navbar";
@@ -9,8 +9,6 @@ import DetailCard from "../Components/DetailCard";
 import ShoppingCart from "../Components/ShopingCard";
 
 function Layout() {
-  console.log("layout render edildi");
-
   return (
     <div className="bg-gray-100 min-h-screen">
       <Navbar />

@@ -6,16 +6,14 @@ import { getAllCategoryItem } from "../features/productSlice";
 import { useLocation } from "react-router-dom";
 
 function Category() {
-  console.log("category render edildi")
   const { categoryItem } = useSelector((state) => state.productReducer);
-  const {pathname} = useLocation()
-  console.log(pathname)
+  const { pathname } = useLocation();
+  console.log(pathname);
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(getAllCategoryItem(pathname));
   }, [pathname]);
 
-  
   return (
     <div className="flex-1 p-4">
       <div className="container mx-auto">
