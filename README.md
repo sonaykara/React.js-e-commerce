@@ -2,6 +2,8 @@
 
 Bu proje, React.js kullanarak geliştirilmiş bir e-ticaret sitesidir. Kullanıcılar, istediği ürünün aramasını yapabilir, çeşitli ürünleri seçebilir, ürünlerini inceleyebilir ve istedikleri ürünleri sepete ekleyebilirler. Sepetteki ürünlerin miktarını hem modal olan sepetten hem de route sayfa olan sepetten artırabilir ve sorunsuz bir şekilde güncelleyebilirler. Modal olan sepetin görünürlüğünü değiştirebilirler. Sepetteki ürünler local storage'a kaydedildiği için sayfa yenilendiğinde veya tarayıcı kapandığında bile sepetteki ürünler kalır.
 
+Projece Vercel Url = https://react-js-e-commerce-beryl.vercel.app/
+
 <br><br>
 
 ## İçindekiler  
